@@ -44,7 +44,7 @@ function unlock() {
   }
 
   const input = document.getElementById("answer").value.trim();
-  if (input === "2026🎉") {
+  if (input === "2026") {
     launchCelebration();
   } else {
     document.getElementById("error").textContent =
